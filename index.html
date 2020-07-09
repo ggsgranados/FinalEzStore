@@ -1,0 +1,1666 @@
+<!--
+Author: Linda Meléndez MH150383
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Titulo de la pagina-->
+<title>Ez Store Sv</title>
+<!--Poner icono en la cabecera-->
+<link rel="icon" href="images/icon.png">
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Ez Store, electronica, tienda, online, computadora, repuestos, el salvador" />
+<!-- Pedazo de Codigo raro -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/jquery.countdown.css" /> <!-- countdown --> 
+<!-- //js -->  
+<!-- web fonts --> 
+<link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //web fonts -->  
+<!-- start-smooth-scrolling -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- //end-smooth-scrolling --> 
+</head> 
+<body id=cuerpo>
+	<!--COLOR DE FONDO DEL BODY-->
+	<style type="text/css">
+	
+	#cuerpo{
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+39,ededed+51,ffffff+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 39%, #ededed 51%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 39%,#ededed 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 39%,#ededed 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	}
+</style>
+	<!-- for bootstrap working -->
+	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- header modal -->
+	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;</button>
+					<h4 class="modal-title" id="myModalLabel">¡Regístrate con nosotros!</h4>
+				</div>
+				<div class="modal-body modal-body-sub">
+					<div class="row">
+						<!--ESTA PARTE ES PARA DAR COLOR A LA LINEA PUNTEADA DEL FORMULARIO-->
+					<!--	<div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #f00c10;padding-right:3em;"> -->
+							<!--FORMULARIO PARA REGISTRARSE E INICIAR SESION-->
+							<!--INICIO-->
+							<!--Registro-->
+							<div class="sap_tabs">	
+								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+									<ul>
+										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Iniciar Sesión</span></li>
+										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Registrarse</span></li>
+									</ul>	
+									<!--Iniciar sesión-->	
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="facts">
+											<div class="register">
+												<form action="sesion.php" method="post">			
+													<input name="Email" placeholder="Dirección de correo electrónico" type="text" required="">						
+													<input name="Password" placeholder="Contraseña" type="password" required="">										
+													<div class="sign-up">
+														<input type="submit" value="Iniciar"/>
+														
+													</div>
+												</form>
+											</div>
+										</div> 
+									</div>	 
+									<!--Registrarse-->
+									<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="facts">
+											<div class="register">
+												<form action="registro.php" method="post">			
+													<input placeholder="Nombre" name="Name" type="text" required="">
+													<input placeholder="Dirección de correo electrónico" name="Email" type="email" required="">	
+													<input placeholder="Contraseña" name="Password" type="password" required="">	
+													<input placeholder="Confirmar contraseña" name="Password2" type="password" required="">
+													<div class="sign-up">
+														<input type="submit" class="btn-submit" value="Crear Cuenta">
+
+													</div>
+												</form>
+											</div>
+										</div>
+									</div> 			        					            	      
+								</div>	
+							</div>
+							<!--FIN DEL FORMULARIO DE INICIO DE SESION O REGISTRO-->
+							<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+							<script type="text/javascript">
+								$(document).ready(function () {
+									$('#horizontalTab').easyResponsiveTabs({
+										type: 'default', //Types: default, vertical, accordion           
+										width: 'auto', //auto or any width like 600px
+										fit: true   // 100% fit in a container
+									});
+								});
+							</script>
+							<!--Opción para iniciar con redes sociales-->
+							<!--
+							<div id="OR" class="hidden-xs">OR</div>
+						</div>
+						<div class="col-md-4 modal_body_right modal_body_right1">
+							<div class="row text-center sign-with">
+								<div class="col-md-12">
+									<h3 class="other-nw"></h3>
+								</div> 
+							-->
+								<!--URGENTE: VER ESTA PARTE YA SEA PARA QUITAR O VER QUE SE PONE -->
+					            <!--
+								<div class="col-md-12">
+									<ul class="social">
+										<li class="social_facebook"><a href="#" class="entypo-facebook"></a></li>
+										<li class="social_dribbble"><a href="#" class="entypo-dribbble"></a></li>
+										<li class="social_twitter"><a href="#" class="entypo-twitter"></a></li>
+										<li class="social_behance"><a href="#" class="entypo-behance"></a></li>
+									</ul>
+								</div>
+                              -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('#myModal88').modal('show');
+	</script>  
+	<!-- header modal -->
+	<!-- header -->
+	<div class="header" id="home1">
+		<div class="container">
+			<div class="w3l_login">
+				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+			</div>
+			
+			<div class="w3l_logo">
+				<h1><a href="index.html">Ez Store SV<span>¡Tus compras son Ez!</span></a></h1>
+				
+			</div>
+			
+			<!--CAJA DE BUSQUEDA INICIO-->
+			<div class="search">
+				<input class="search_box" type="checkbox" id="search_box">
+				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+				<div class="search_form">
+					<form action="#" method="post">
+						<input type="text" name="Search" placeholder="Iniciar búsqueda...">
+						<!--CONFIGURAR BOTON DE SEND -->
+						<input type="submit" value="Buscar">
+					</form>
+				</div>
+			</div>
+			<!--FINAL DE LA CAJA DE BUSQUEDA-->
+
+			<!--INICIO DEL CARRITO FE COMPRAS-->
+			<div class="cart cart box_1"> 
+				<form action="#" method="post" class="last"> 
+					<input type="hidden" name="cmd" value="_cart" />
+					<input type="hidden" name="display" value="1" />
+					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+				</form>   
+			</div>  
+			<!--FINAL DEL CARRITO DE COMPRAS-->
+		</div>
+	</div>
+
+	<!-- //header -->
+	<!-- navigation -->
+	<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html" class="act">Inicio</a></li>	
+						<!-- Mega Menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Catalogo <b class="caret"></b></a>
+							<ul class="dropdown-menu multi-column columns-3">
+								<div class="row">
+									<div class="col-sm-3">
+										<ul class="multi-column-dropdown">
+											<h6>Computadoras</h6>
+											
+											<li><a href="products.html">Hp <span>New</span></a></li> 
+											<li><a href="products.html">Lenovo</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-3">
+										<ul class="multi-column-dropdown">
+											<h6>Audio y Video</h6>
+											<li><a href="products.html">Pantallas</a></li>
+											<li><a href="products1.html">Auriculares <span>New</span></a></li>
+											<li><a href="products.html"><i>Audio y Video</i></a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2">
+										<ul class="multi-column-dropdown">
+											<h6>Componentes</h6>
+											<li><a href="products.html">Procesadores</a></li>
+											<li><a href="products.html">Disco duros</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-4">
+										<div class="w3ls_products_pos">
+											<h4>30%<i>Off/-</i></h4>
+											<img src="images/1.jpg" alt=" " class="img-responsive" />
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</ul>
+						</li>
+						<li><a href="about.html">¿Quiénes somos?</a></li> 
+						<li class="w3pages"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Políticas <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="politicas1.html">Privacidad</a></li>
+								<li><a href="politicas2.html">Envío y Entrega</a></li>   
+							</ul>
+						</li>  
+						<li><a href="mail.html">Contáctanos</a></li>
+						<li><a href="servicio.html">Servicio remoto</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
+	<!-- banner -->
+	<div class="banner"> 
+		
+	</div> 
+	<!-- //banner --> 
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="col-md-5 wthree_banner_bottom_left">
+				<div class="video-img">
+					<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+						<span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
+					</a>
+				</div> 
+					<!-- pop-up-box -->     
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!--//pop-up-box -->
+					<div id="small-dialog" class="mfp-hide">
+						<iframe src="https://www.youtube.com/embed/3MZxmdE1zao"></iframe>
+					</div>
+					<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+					</script>
+			</div>
+			<div class="col-md-7 wthree_banner_bottom_right">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" style="font-size: 12px">Computadoras</a></li>
+						<li role="presentation"><a href="#audio" role="tab" id="audio-tab" data-toggle="tab" aria-controls="audio" style="font-size: 12px">Audio</a></li>
+						<li role="presentation"><a href="#video" role="tab" id="video-tab" data-toggle="tab" aria-controls="video" style="font-size: 12px">Video</a></li>
+						
+					</ul>
+					<!--SECCION COMPUTADORAS-->
+					<div id="myTabContent" class="tab-content">
+						
+						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+							<div class="agile_ecommerce_tabs">
+								<!--Producto 1-->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/c1_1.png" alt=" " class="img-responsive" />
+										<img src="images/C1_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/C1_3.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div> 
+									<h5>Lenovo - M715q - Tiny AMD</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><!--<span>$380</span>--> <i class="item_price">$829.46</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Lenovo - M715q - Tiny AMD" /> 
+											<input type="hidden" name="amount" value="829.46" />   
+											<input type="hidden" name="w3ls_id" value="M715q">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>  
+									</div>
+								</div>
+								<!--//Producto 1--->
+								<!--Producto 2-->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/C2_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/C2_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/C2_3.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>HP - 20-c205la - 1 - Celeron J3060</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><!--<span>$330</span>--> <i class="item_price">$490.45</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="HP - 20-c205la - 1 - Celeron J3060" /> 
+											<input type="hidden" name="amount" value="490.45" />   
+											<input type="hidden" name="w3ls_id" value="20-c205la">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+								<!--//PRODUCTO 2 -->
+								<!--Producto 3-->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/C3_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/C3_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/C3_3.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>HP 22-c014la - Intel Core i3 I3-8130U</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">$700.74</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="HP 22-c014la - Intel Core i3 I3-8130U" /> 
+											<input type="hidden" name="amount" value="700.74"/>   
+											<input type="hidden" name="w3ls_id" value="22-c014la">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+                        <!--PRODUCTO 3-->
+						<!--SECCION AUDIO-->
+						<!--PRODUCTO 1-->
+						<div role="tabpanel" class="tab-pane fade" id="audio" aria-labelledby="audio-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/AU1_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU1_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU1_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU1_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU1_5.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>Audifonos Maxell Solids2 Sms-10 Metalz</a></h5>
+										<p> <i class="item_price">$20.00</i></p>
+									<div class="simpleCart_shelfItem">
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Audifo Maxell Solids2 Sms-10 Metalz" /> 
+											<input type="hidden" name="amount" value="20.00" />   
+											<input type="hidden" name="w3ls_id" value="Sms-10">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+
+								<!--PRODUCTO 2 -->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/AU2_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU2_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU2_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU2_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU2_5.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal7"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>Auricular en oreja - Tt eSPORTS CRONOS RGB 7.1</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p> <i class="item_price">$103.53</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Auricular en oreja - Tt eSPORTS CRONOS RGB 7.1" /> 
+											<input type="hidden" name="amount" value="103.53" />   
+											<input type="hidden" name="w3ls_id" value="CronosRGB7.1">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+
+								<!--PRODUCTO 3-->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/AU3_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU3_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU3_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU3_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/AU3_5.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal8"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>PARLANTES XTREME 2.1 SD USB KWS-640</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">$89.27</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="PARLANTES XTREME 2.1 SD USB KWS-640" /> 
+											<input type="hidden" name="amount" value="89.27"/>   
+											<input type="hidden" name="w3ls_id" value="KWS-640">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!--SECCION VIDEO-->
+						<!--PRODUCTO 1-->
+						<div role="tabpanel" class="tab-pane fade" id="video" aria-labelledby="video-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/VI1_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI1_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI1_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI1_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI1_5.png" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal9"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>Ecran Klip Xtreme KPS-304 120 pulgadas</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">$115.16</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Ecran Klip Xtreme KPS-304 120 pulgadas" /> 
+											<input type="hidden" name="amount" value="136.05" />   
+											<input type="hidden" name="w3ls_id" value="KPS-304">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+
+								<!--PRODUCTO 2-->
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/VI2_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI2_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI2_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI2_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI2_5.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal10"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>Proyector 3LCD - portátil - Epson PowerLite S41+</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">$460.56</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Proyector 3LCD - portátil - Epson PowerLite S41+" /> 
+											<input type="hidden" name="amount" value="460.56" /> 
+											<input type="hidden" name="w3ls_id" value="PowerLiteS41+">  
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+
+								<!--Poducto 3 -->
+								
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/VI3_1.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI3_2.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI3_3.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI3_4.jpg" alt=" " class="img-responsive" />
+										<img src="images/VI3_5.jpg" alt=" " class="img-responsive" />
+										
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal11"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5>Monitor LED - 27 pulgadas - Acer KG271</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><i class="item_price">$362.64</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Monitor LED - 27 pulgadas - Acer KG271" /> 
+											<input type="hidden" name="amount" value="362.64" />   
+											<input type="hidden" name="w3ls_id" value="KG271">
+											<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+										</form>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					
+					<!--SECCION DE COMPONENTES-->
+						<div role="tabpanel" class="tab-pane fade" id="comp" aria-labelledby="comp-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">Refrigerator</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$950</span> <i class="item_price">$820</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Refrigerator" /> 
+											<input type="hidden" name="amount" value="820.00" />   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">LED Tv</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$700</span> <i class="item_price">$680</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="LED Tv"/> 
+											<input type="hidden" name="amount" value="680.00"/>   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<img src="images/16.jpg" alt=" " class="img-responsive" />
+										<img src="images/14.jpg" alt=" " class="img-responsive" />
+										<img src="images/15.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">Washing Machine</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$520</span> <i class="item_price">$510</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Washing Machine" /> 
+											<input type="hidden" name="amount" value="510.00" />   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="kitchen" aria-labelledby="kitchen-tab">
+							<div class="agile_ecommerce_tabs">
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">Grinder</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$460</span> <i class="item_price">$450</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Grinder" /> 
+											<input type="hidden" name="amount" value="450.00" />   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">Water Purifier</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$390</span> <i class="item_price">$350</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Water Purifier" /> 
+											<input type="hidden" name="amount" value="350.00" />   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<img src="images/19.jpg" alt=" " class="img-responsive" />
+										<img src="images/17.jpg" alt=" " class="img-responsive" />
+										<img src="images/18.jpg" alt=" " class="img-responsive" />
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="single.html">Coffee Maker</a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$250</span> <i class="item_price">$220</i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" /> 
+											<input type="hidden" name="w3ls_item" value="Coffee Maker" /> 
+											<input type="hidden" name="amount" value="220.00" />   
+											<button type="submit" class="w3ls-cart">Add to cart</button>
+										</form>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //banner-bottom --> 
+	<!-- modal-video -->
+		<!--LOS MODALS-->
+
+		<!--LOS MODALS-->
+		<!--MODAL 1-->
+	<div class="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal">
+
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+			
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/c1_1.png" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Lenovo - M715q - Tiny AMD Ryzen 5 2400GE</h4>
+							<p> <br>Marca: Lenovo <br>Modelo: M715q - Tiny <br>Procesador: AMD Ryzen 5 2400GE <br>Memoria RAM: 8 GB <br>Almacenamiento: 1 TB Hard Drive Capacity <br>Sistema Operativo: Windows 10 Pro <br>Color disponible: negro
+							</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$829.46</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Lenovo - M715q - Tiny AMD Ryzen 5 2400GE"> 
+									<input type="hidden" name="amount" value="829.46"> 
+									<input type="hidden" name="w3ls_id" value="M715q">  
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--MODAL 2-->
+	<div class="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal1">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/C2_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>HP 20-c205la - 1 x Celeron J3060</h4>
+							<p>Marca: HP <br>Modelo: 20-c205la - 1 <br>Procesador: Celeron J3060 <br>Memoria RAM: 4GB <br>Almacenamiento: HDD 1 TB <br>Sistema Operativo: Windows 10 Home 64 bit <br>Monitor: LED 19.5" 1600 x 900 (HD+) <br>Color disponible: negro, blanco.</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p> <i class="item_price">$490.45</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="HP 20-c205la - 1 x Celeron J3060"> 
+									<input type="hidden" name="amount" value="490.45">   
+									<input type="hidden" name="w3ls_id" value="20-c205la">
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!--MODAL 3-->
+	<div class="modal video-modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/C3_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>HP 22-c014la - Intel Core i3 I3-8130U</h4>
+							<p>Marca: HP <br>Modelo: 22-c014la <br>Procesador: Intel Core i3 I3-8130U <br>Memoria RAM: 4GB <br>Almacenamiento: 1 TB HDD<br>Sistema Operativo: Windows 10 Home<br>Color disponible: negro azabache</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$700.74</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="HP 22-c014la - Intel Core i3 I3-8130U"> 
+									<input type="hidden" name="amount" value="700.74">   
+									<input type="hidden" name="w3ls_id" value="22-c014la">
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!--MODAL 6-->
+	<div class="modal video-modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModal3">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/AU1_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Audifonos Maxell Solids2 Sms-10 Metalz</h4>
+							<p>Largo de cable: 1.5 m <br>Tamaño de bocina: 40 mm <br>Impedancia: 32 ohms <br>Colores disponibles: negro, azul, rojo, blanco, plata, rosa.</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$20</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Audifonos Maxell Solids2 Sms-10 Metalz"> 
+									<input type="hidden" name="amount" value="20.00">   
+									<input type="hidden" name="w3ls_id" value="Sms-10">
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+<!--MODAL 7-->
+	<div class="modal video-modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModal4">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/AU2_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Auricular en oreja - Tt ESPORTS CRONOS RGB 7.</h4>
+							<p>Peso (gramos): 365 <br>Impedancia: 32 ohms <br>Microfono con ruido cancelado: si</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$103.53</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Auricular en oreja - Tt ESPORTS CRONOS RGB 7.1"> 
+									<input type="hidden" name="amount" value="103.53">   
+									<input type="hidden" name="w3ls_id" value="CronosRGB7.1">
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!--MODAL 8-->
+	<div class="modal video-modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModal5">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/AU3_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>PARLANTES XTREME 2.1 SD USB KWS-640</h4>
+							<p>Máxima potencia de salida: 56 W <br>Tipo de conexión: Bluetooth 4.0, función NFC y 3,5mm. <br>Máxima potencia de salida (RMS): 56W en total. <br>Frecuencia de RF inalámbrica: 2,4GHz - 2,48GHz <br>Entrada de CA: 100-240V (detección automática). <br>Ranura para tarjeta de memorias SD y USB. <br>Color Bajo con LED multicolor, efectos de luces. <br>Alcance inalámbrico: 15m <br>Pantalla: LED <br>Función: NFC <br>Peso: 4 kgs.</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$89.27</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="PARLANTES XTREME 2.1 SD USB KWS-640"> 
+									<input type="hidden" name="amount" value="89.27">   
+									<input type="hidden" name="w3ls_id" value="KWS-640">
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--MODAL 9-->
+	<div class="modal video-modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModal6">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/VI1_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Ecran Klip Xtreme KPS-304 120 pulgadas</h4>
+							<p>Diagonal: 120" / 3.05m <br>Dimensiones: 94.4" x 70.9" / 2.40 x 1.80 m <br>Color: Blanco <br>Peso: 12.0Kg</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$115.16</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Ecran Klip Xtreme KPS-304 120 pulgadas"> 
+									<input type="hidden" name="amount" value="115.16">
+									<input type="hidden" name="w3ls_id" value="KPS-304">   
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!--MODAL 10-->
+	<div class="modal video-modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModal6">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/VI2_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Proyector 3LCD - portátil - Epson PowerLite S41+</h4>
+							<p>Resolución: 480,000 pixeles (800 x 600) <br>Brillo en Color: Salida de Luz en Color: 3,300 Lúmenes <br>Salida de Luz en Blanco: 3,300 Lúmenes <br>Relación de Aspecto: 4:3 <br>Resolución Nativa: SVGA <br>Relación de Contraste: Hasta 15,000:1 <br>Duración de Lámpara hasta: 10,000 horas en modo económico 6,000 horas en modo normal <br>Apagado: instantáneo <br>Conectividad: HDMI, VGA,Vídeo Compuesto (RCA), USB(Tipo B)(Tipo A), Audio <br>Parlante: 2W <br>Ruido del Ventilador: 28 dB / 37 dB <br>Control Remoto: Si.</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$460.56</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Proyector 3LCD - portátil - Epson PowerLite S41+"> 
+									<input type="hidden" name="amount" value="460.56">
+									<input type="hidden" name="w3ls_id" value="PowerLiteS41+">   
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!--MODAL 11-->
+	<div class="modal video-modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModal6">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="col-md-5 modal_body_left">
+							<img src="images/VI3_1.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="col-md-7 modal_body_right">
+							<h4>Monitor LED - 27" - Acer KG271</h4>
+							<p>Resolución: 1920 x 1080 Full HD (1080p) <br>Tipo de conectividad: HDMI, VGA <br>Color disponible: negro</p>
+							<div class="rating">
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star-.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="rating-left">
+									<img src="images/star.png" alt=" " class="img-responsive" />
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="modal_body_right_cart simpleCart_shelfItem">
+								<p><i class="item_price">$362.24</i></p>
+								<form action="#" method="post">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1"> 
+									<input type="hidden" name="w3ls_item" value="Monitor LED - 27" - Acer KG27"> 
+									<input type="hidden" name="amount" value="362.24">
+									<input type="hidden" name="w3ls_id" value="KG271">   
+									<button type="submit" class="w3ls-cart">Añadir al carrito</button>
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!--FIN DE MODALS-->
+	<!-- //modal-video -->
+	<!-- banner-bottom1 -->
+	<div class="banner-bottom1">
+		<div class="agileinfo_banner_bottom1_grids">
+			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
+				<h3>Productos seleccionados con<span> 20%<i>de rebaja</i></span></h3>
+				<a href="products.html">Ir a la tienda</a>
+			</div>
+			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
+				<h4>Ya casi...</h4>
+				<div class="timer_wrap">
+					<div id="counter"> </div>
+				</div>
+				<script src="js/jquery.countdown.js"></script>
+				<script src="js/script.js"></script>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //banner-bottom1 --> 
+	<!-- special-deals -->
+	<div class="special-deals">
+		<div class="container">
+			<h2>Social Ez</h2>
+			<div class="w3agile_special_deals_grids">
+				<div class="col-md-7 w3agile_special_deals_grid_left">
+					<div class="w3agile_special_deals_grid_left_grid">
+						<img src="images/21.jpg" alt=" " class="img-responsive" />
+						<div class="w3agile_special_deals_grid_left_grid_pos1">
+							<h5><span>-30%</span></h5>
+						</div>
+						<div class="w3agile_special_deals_grid_left_grid_pos">
+							<h4>Que nada te detenga <span>sigue escuchando...</span></h4>
+						</div>
+					</div>
+					<div class="wmuSlider example1">
+						<div class="wmuSliderWrapper">
+							<article style="position: absolute; width: 100%; opacity: 0;"> 
+								<div class="banner-wrap">
+									<div class="w3agile_special_deals_grid_left_grid1">
+										<img src="images/t1.png" alt=" " class="img-responsive" />
+										<p>Recuerda limpiar tus manos constantemente y usar mascarilla al salir. Ez Store apoya la prevención del COVID19.</p>
+										<h4>#QuedateEnCasa</h4>
+									</div>
+								</div>
+							</article>
+							<article style="position: absolute; width: 100%; opacity: 0;"> 
+								<div class="banner-wrap">
+									<div class="w3agile_special_deals_grid_left_grid1">
+										<img src="images/t2.png" alt=" " class="img-responsive" />
+										<!--<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
+											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
+											eum fugiat quo voluptas nulla pariatur</p>-->
+										<h4>Frase del día</h4>
+									</div>
+								</div>
+							</article>
+							<article style="position: absolute; width: 100%; opacity: 0;"> 
+								<div class="banner-wrap">
+									<div class="w3agile_special_deals_grid_left_grid1">
+										<img src="images/t3.png" alt=" " class="img-responsive" />
+										<p>Recuerda: ¡Tenemos productos de audio al 30% de descuento y en otros productos seleccionados el 20%! Páseate por nuestra tienda, no desaproveches la oferta. Contamos con productos de calidad.</p>
+										<h4>Oferta del día.</h4>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+						<script src="js/jquery.wmuSlider.js"></script> 
+						<script>
+							$('.example1').wmuSlider();         
+						</script> 
+				</div>
+				<div class="col-md-5 w3agile_special_deals_grid_right">
+					<img src="images/20.jpg" alt=" " class="img-responsive" />
+					<div class="w3agile_special_deals_grid_right_pos">
+						<h5>Octubre... <br><span>2020</span></h5>
+						<!--<h5>save up <span>to</span> 30%</h5> -->
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //special-deals -->
+	<!-- new-products -->
+	<!--
+	<div class="new-products">
+		<div class="container">
+			<h3>Productos nuevos</h3>
+			<div class="agileinfo_new_products_grids">
+				<div class="col-md-3 agileinfo_new_products_grid">
+					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
+						<div class="hs-wrapper hs-wrapper1">
+							<img src="images/25.jpg" alt=" " class="img-responsive" />
+							<img src="images/23.jpg" alt=" " class="img-responsive" />
+							<img src="images/24.jpg" alt=" " class="img-responsive" />
+							<img src="images/22.jpg" alt=" " class="img-responsive" />
+							<img src="images/26.jpg" alt=" " class="img-responsive" /> 
+							<div class="w3_hs_bottom w3_hs_bottom_sub">
+								<ul>
+									<li>
+										<a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h5><a href="single.html">Laptops</a></h5>
+						<div class="simpleCart_shelfItem">
+							<p><span>$520</span> <i class="item_price">$500</i></p>
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="add" value="1"> 
+								<input type="hidden" name="w3ls_item" value="Red Laptop"> 
+								<input type="hidden" name="amount" value="500.00">   
+								<button type="submit" class="w3ls-cart">Add to cart</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo_new_products_grid">
+					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
+						<div class="hs-wrapper hs-wrapper1">
+							<img src="images/27.jpg" alt=" " class="img-responsive" />
+							<img src="images/28.jpg" alt=" " class="img-responsive" />
+							<img src="images/29.jpg" alt=" " class="img-responsive" />
+							<img src="images/30.jpg" alt=" " class="img-responsive" />
+							<img src="images/31.jpg" alt=" " class="img-responsive" /> 
+							<div class="w3_hs_bottom w3_hs_bottom_sub">
+								<ul>
+									<li>
+										<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h5><a href="single.html">Black Phone</a></h5>
+						<div class="simpleCart_shelfItem">
+							<p><span>$380</span> <i class="item_price">$370</i></p>
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="add" value="1"> 
+								<input type="hidden" name="w3ls_item" value="Black Phone"> 
+								<input type="hidden" name="amount" value="370.00">   
+								<button type="submit" class="w3ls-cart">Add to cart</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo_new_products_grid">
+					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
+						<div class="hs-wrapper hs-wrapper1">
+							<img src="images/34.jpg" alt=" " class="img-responsive" />
+							<img src="images/33.jpg" alt=" " class="img-responsive" />
+							<img src="images/32.jpg" alt=" " class="img-responsive" />
+							<img src="images/35.jpg" alt=" " class="img-responsive" />
+							<img src="images/36.jpg" alt=" " class="img-responsive" /> 
+							<div class="w3_hs_bottom w3_hs_bottom_sub">
+								<ul>
+									<li>
+										<a href="#" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h5><a href="single.html">Kids Toy</a></h5>
+						<div class="simpleCart_shelfItem">
+							<p><span>$150</span> <i class="item_price">$100</i></p>
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="add" value="1"> 
+								<input type="hidden" name="w3ls_item" value="Kids Toy"> 
+								<input type="hidden" name="amount" value="100.00">   
+								<button type="submit" class="w3ls-cart">Add to cart</button>
+							</form>
+						</div>  
+					</div>
+				</div>
+				<div class="col-md-3 agileinfo_new_products_grid">
+					<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
+						<div class="hs-wrapper hs-wrapper1">
+							<img src="images/37.jpg" alt=" " class="img-responsive" />
+							<img src="images/38.jpg" alt=" " class="img-responsive" />
+							<img src="images/39.jpg" alt=" " class="img-responsive" />
+							<img src="images/40.jpg" alt=" " class="img-responsive" />
+							<img src="images/41.jpg" alt=" " class="img-responsive" /> 
+							<div class="w3_hs_bottom w3_hs_bottom_sub">
+								<ul>
+									<li>
+										<a href="#" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h5><a href="single.html">Induction Stove</a></h5>
+						<div class="simpleCart_shelfItem">
+							<p><span>$280</span> <i class="item_price">$250</i></p>
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart">
+								<input type="hidden" name="add" value="1"> 
+								<input type="hidden" name="w3ls_item" value="Induction Stove"> 
+								<input type="hidden" name="amount" value="250.00">   
+								<button type="submit" class="w3ls-cart">Add to cart</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+-->
+	<!-- //new-products -->
+
+	<!-- top-brands -->
+	<div class="top-brands">
+		<div class="container">
+			<h3>Patrocinadores</h3>
+			<div class="sliderfig">
+				<ul id="flexiselDemo1">			
+					<li>
+						<img src="images/tb1.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb2.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb3.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb4.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb5.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb6.jpg" alt=" " class="img-responsive" />
+					</li>
+					<li>
+						<img src="images/tb7.jpg" alt=" " class="img-responsive" />
+					</li>
+				</ul>
+			</div>
+			<script type="text/javascript">
+					$(window).load(function() {
+						$("#flexiselDemo1").flexisel({
+							visibleItems: 4,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover: true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems:2
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 3
+								}
+							}
+						});
+						
+					});
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+	<!-- //top-brands --> 
+	<!-- newsletter -->
+	<!--
+	<div class="newsletter">
+		<div class="container">
+			<div class="col-md-6 w3agile_newsletter_left">
+				<h3>Newsletter</h3>
+				<p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+			</div>
+			<div class="col-md-6 w3agile_newsletter_right">
+				<form action="#" method="post">
+					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="submit" value="" />
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+-->
+	<!-- //newsletter -->
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3_footer_grids">
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Contactános</h3>
+					<p>Si tienes consultas sobre nuestras promociones o sugerencias te dejamos nuestros medios de comunicación.</p>
+					<ul class="address">
+						<!--<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>-->
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><!--</i><a href="mailto:lotte2608@hotmail.com" >lotte2608@hotmail.com</a>--> ezstoresv@gmail.com</li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+503 2456 1284</li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Información</h3>
+					<ul class="info"> 
+						<li><a href="about.html">Sobre nosotros</a></li>
+						<li><a href="mail.html">Contactános</a></li>
+						<!--<li><a href="codes.html">Short Codes</a></li>
+						<li><a href="faq.html">FAQ's</a></li>-->
+						<li><a href="products.html">Productos Especiales</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Categorías</h3>
+					<ul class="info"> 
+						<li><a href="products.html">Computadores</a></li>
+						<li><a href="products1.html">Audio</a></li>
+						<li><a href="products.html">Cables y adaptadores</a></li>
+						<li><a href="products1.html">Video</a></li>
+						<li><a href="products2.html">Componentes para PC</a></li>
+					</ul>
+				</div>
+				<!--
+				<div class="col-md-3 w3_footer_grid">
+					<h3>Perfil</h3>
+					<ul class="info"> 
+					</ul>
+					<h4>Síguenos</h4>
+					<div class="agileits_social_button">
+						<ul>
+							<li><a href="https://www.facebook.com/Ez-Store-SV-110406287404285" target="_blank" class="facebook"> </a></li>
+							<li><a href="https://www.instagram.com/ezstore503/" target="_blank" class="instagram"> </a></li>
+						</ul>
+					</div>
+				</div>
+			-->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="footer-copy">
+			<div class="footer-copy1">
+				<div class="footer-copy-pos">
+					<a href="#home1" class="scroll"><img src="images/arrow.png" alt=" " class="img-responsive" /></a>
+				</div>
+			</div>
+			<div class="container">
+				<p>&copy; 2020 Ez Store SV. Todos los derechos resevados. </a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!--menu flotante de redes sociales-->
+	<div class="red">
+		<div id="facebook"><a href="https://www.facebook.com/Ez-Store-SV-110406287404285"target="_blank" class="fa fa-facebook"></a></div>
+		<div id="instagram"><a href="https://www.instagram.com/ezstore503/" target="_blank" class="fa fa-instagram"></a></div>
+		<div id="correo"><a href="mail.html" target="_blank" class="fa fa-envelope"></a></div>
+	</div>
+	<!--//boton flotante para wathsapp-->
+	<div class="btn-whatsapp">
+		<a href="https://wa.me/50375196523?text=Me%20gustaría%20saber%20más%20información%20sobre" class="whatsapp" target="_blank"> 
+		<img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+	</div>
+
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+        w3ls.render();
+
+        w3ls.cart.on('w3sb_checkout', function (evt) {
+        	var items, len, i;
+
+        	if (this.subtotal() > 0) {
+        		items = this.items();
+
+        		for (i = 0, len = items.length; i < len; i++) { 
+        		}
+        	}
+        });
+    </script>  
+	<!-- //cart-js -->   
+</body>
+</html>
